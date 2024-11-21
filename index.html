@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon</title>
+    <!-- Favicon links for different devices -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon.png">
+    <link rel="shortcut icon" href="/api/placeholder/32/32">
+    <style>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            min-height: 100vh;
+            background-color: #f5f5f5;
+            background-color: #f5f5f5;
+            background-image: url("https://www.transparenttextures.com/patterns/whitey.png");
+        }
+
+        nav {
+            padding: 1rem 2rem;
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .small-logo {
+            width: 60px;
+            height: 60px;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: calc(100vh - 72px); /* Subtract nav height */
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .medium-logo {
+            width: 200px;
+            height: 200px;
+            margin-bottom: 2rem;
+        }
+
+        .coming-soon-text {
+            font-size: 1.5rem;
+            color: #333;
+            margin-top: 1rem;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            nav {
+                padding: 1rem;
+            }
+
+            .small-logo {
+                width: 32px;
+                height: 32px;
+            }
+
+            .medium-logo {
+                width: 120px;
+                height: 120px;
+            }
+
+            .coming-soon-text {
+                font-size: 1.25rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .medium-logo {
+                width: 100px;
+                height: 100px;
+            }
+
+            .coming-soon-text {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <img src="lighmode.png" alt="Small Logo" class="small-logo">
+    </nav>
+    
+    <main>
+        <img src="lighmode.png" alt="Medium Logo" class="medium-logo">
+        <p class="coming-soon-text">Coming soon. Stay for updates!!</p>
+    </main>
+</body>
+</html>
